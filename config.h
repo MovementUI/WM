@@ -2,11 +2,11 @@
 
 /* appearance */
 static const unsigned int borderpx  = 1;        /* border pixel of windows */
-static const unsigned int snap      = 12;       /* snap pixel */
+static const unsigned int snap      = 14;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = {"monospace:size=9"};
-static const char dmenufont[]       = "monospace:size=9";
+static const char *fonts[]          = {"URW Gothic L:size=9", "Font Awesome 5 Free:size=9"};
+static const char dmenufont[]       = "URW Gothic L:size=9";
 static const char col_black[]	    = "#000000";
 static const char col_white[]	    = "#ffffff";
 static const char col_gray1[]       = "#222222";
@@ -22,7 +22,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "1", "2", "3", "4", "5", "6"};
+static const char *tags[] = { "\uf011", "2", "3", "4", "5", "6"};
 
 static const Rule rules[] = {
 	/* xprop(1):
